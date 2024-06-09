@@ -16,7 +16,8 @@ class MainWindow(QWidget):
 
     def initializeUI(self):
         """Set up the application's GUI."""
-        self.setGeometry(100, 100, 250, 250)
+        #self.setGeometry(100, 100, 250, 250)
+        self.setGeometry(500, 500, 500, 500)
         self.setWindowTitle("QLabel Example")
 
         self.setUpMainWindow()
